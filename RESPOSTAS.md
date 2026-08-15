@@ -51,3 +51,14 @@ Responda em duas linhas, explicando o motivo:**
 **Hash do commit de revert:**
 
 **Por que `git revert` e nao `git reset` neste caso:**
+
+## M2 – Quem quebrou o painel
+
+- Hash curto do commit: `01ef93b`
+- Autor: Tarcisio Melo
+- Data: 15/06/2026 às 22:38:00 -0300
+- Linha antes:
+  `return (leitura - 32) * 5 / 9;`
+- Linha depois:
+  `return leitura * 9 / 5 + 32;`
+  
