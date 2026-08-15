@@ -61,4 +61,9 @@ Responda em duas linhas, explicando o motivo:**
   `return (leitura - 32) * 5 / 9;`
 - Linha depois:
   `return leitura * 9 / 5 + 32;`
-  
+
+  ## M3 – O segredo vazado
+
+**O que eu esperava:** que o `config/credenciais.env` deixasse de aparecer no `git status` por estar no `.gitignore`.
+
+**O que apareceu:** o `.gitignore` apareceu como arquivo não rastreado, enquanto o `config/credenciais.env` continuou sendo rastreado, porque ele já fazia parte do histórico do Git.
