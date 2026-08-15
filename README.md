@@ -1,3 +1,6 @@
+Nome: Felipe Saadi Nesso
+Email: felipe.nesso@aluno.senai.br
+
 # 📊 TechInova - Painel de Linha de Produção
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
